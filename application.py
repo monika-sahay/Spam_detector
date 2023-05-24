@@ -2,15 +2,15 @@ from flask import Flask, request
 import joblib
 
 
-app = Flask(__name__)
+application = Flask(__name__)
 vectorizer=joblib.load("vectorizer.pkl")
 spamorham_model=joblib.load("spam_ham_model.pkl")
 
-@app.route('/')
+@application.route('/')
 def hello_world():
     return 'hello_world'
 
-@app.route('/spamorham', methods=['GET','POST'])
+@application.route('/spamorham', methods=['GET','POST'])
 def spamorham():
     message = request.args.get("message")
     vect_message = vectorizer.transform([message])
