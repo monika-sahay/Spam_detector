@@ -18,4 +18,4 @@ def spamorham():
     return result
 
 if __name__ == '__main__':
-    app.run()
+    application.run()
