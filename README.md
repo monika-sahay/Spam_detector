@@ -28,6 +28,7 @@ To get started with this project, please refer to the following sections:
 * 2. Follow the setup instructions in the Setup section to prepare your development environment.
 * 3. Proceed with the data preparation, model training, and API development sections to build the spam detector.
 * 4. Finally, follow the deployment instructions to launch the spam detector as a serverless API on AWS Elastic Beanstalk.
+* The link for the api here http://ec2-3-83-252-46.compute-1.amazonaws.com:5000/spamorham 
 
 Feel free to explore the project, experiment with different techniques, and customize it according to your needs.
 
