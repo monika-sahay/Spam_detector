@@ -1,7 +1,6 @@
 from flask import Flask, request
 import joblib
 
-
 application = Flask(__name__)
 vectorizer=joblib.load("vectorizer.pkl")
 spamorham_model=joblib.load("spam_ham_model.pkl")
